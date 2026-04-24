@@ -32,7 +32,7 @@ public class BankAccountTest {
     BankAccount account = new BankAccount("ACC003", 2000.0);
     account.withdraw(500.0);
     // Kiểm tra xem số dư có đúng là 1500 sau khi rút 500 không
-    assertEquals(1500.0, account.getBalance(), "Số dư phải là 1500 sau khi rút 500");
+    assertEquals(9999, account.getBalance(), "Số dư phải là 1500 sau khi rút 500");
   }
 
   @Test
